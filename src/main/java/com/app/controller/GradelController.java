@@ -14,6 +14,6 @@ public class GradelController {
 	
 	@GetMapping("getUser")
 	public String getUSer() {
-		return "aman!";
+		return "aman singh!";
 	}
 }
