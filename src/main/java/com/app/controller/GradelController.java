@@ -11,4 +11,9 @@ public class GradelController {
 	public String getAppStatus() {
 		return "running!";
 	}
+	
+	@GetMapping("getUser")
+	public String getUSer() {
+		return "aman!";
+	}
 }
